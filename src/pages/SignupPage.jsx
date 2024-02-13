@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const SignupPage = () => {
   return (
-    <>
+    <main className='sign-up'>
       <header className='sign-up-header'>
         <Container>
           <div className='d-flex justify-content-between header'>
@@ -30,7 +30,7 @@ const SignupPage = () => {
           <SignUpRight />
         </Col>
       </Row>
-    </>
+    </main>
   );
 };
 

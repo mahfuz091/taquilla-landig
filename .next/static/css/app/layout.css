@@ -1782,6 +1782,10 @@ span.line-break {
 /* thank-you-tickets.css end */
 
 /* signup */
+.sign-up .row,
+.sign-in .row {
+  --bs-gutter-x: 0;
+}
 
 .sign-up-left {
   padding: 20px 140px;

@@ -8,7 +8,7 @@ import SignInRight from "@/components/SignInRight/SignInRight";
 
 const SignInPage = () => {
   return (
-    <>
+    <main className='sign-in'>
       <header className='sign-up-header'>
         <Container>
           <div className='d-flex justify-content-between header'>
@@ -30,7 +30,7 @@ const SignInPage = () => {
           <SignInRight />
         </Col>
       </Row>
-    </>
+    </main>
   );
 };
 
