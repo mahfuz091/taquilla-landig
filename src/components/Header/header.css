@@ -1,3 +1,7 @@
+#top .row {
+  --bs-gutter-x: -0.5px;
+}
+
 .phone-content h4 {
   font-size: 11px;
   color: #424245;
