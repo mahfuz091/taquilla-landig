@@ -30,7 +30,7 @@
 .input-content {
   position: absolute;
   top: 16px;
-  left: 235px;
+  left: 16px;
   display: flex;
   align-items: center;
   gap: 16px;
@@ -232,9 +232,9 @@ svg {
     width: 200px;
   }
 
-  .input-content {
+  /* .input-content {
     left: 168px;
-  }
+  } */
 
   .search-suggestion {
     left: 16px;
@@ -247,9 +247,9 @@ svg {
     left: -40px;
   }
 
-  .input-content {
+  /* .input-content {
     left: -20px;
-  }
+  } */
 }
 
 @media (max-width: 560px) {
@@ -258,9 +258,9 @@ svg {
     width: 150px;
   }
 
-  .input-content {
+  /* .input-content {
     left: 15px;
-  }
+  } */
 
   .search-suggestion {
     font-size: 12px;
@@ -283,7 +283,7 @@ svg {
     width: 200px;
   }
 
-  .input-content {
+  /* .input-content {
     position: absolute;
     top: 16px;
     right: 10px;
@@ -291,7 +291,7 @@ svg {
     display: flex;
     align-items: center;
     gap: 5px;
-  }
+  } */
 }
 
 @media (max-width: 375px) {
@@ -300,9 +300,9 @@ svg {
     width: 200px;
   }
 
-  .input-content {
+  /* .input-content {
     left: 10px;
-  }
+  } */
 }
 
 .create-event-btn {
@@ -320,7 +320,7 @@ svg {
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  /* line-height: 24px; */
   cursor: pointer;
 }
 .sesion-btn {
@@ -337,7 +337,7 @@ svg {
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  /* line-height: 24px; */
   cursor: pointer;
 }
 

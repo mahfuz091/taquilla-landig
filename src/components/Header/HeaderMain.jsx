@@ -183,12 +183,11 @@ const HeaderMain = () => {
                         </button>
                         <Link href='/sign-up'>
                           <button className='create-event-btn '>
-                            <img src={plus.src} alt='' />
+                            {/* <img src={plus.src} alt='' /> */}
                             Regístrate
                           </button>
                         </Link>
                         <button className='sesion-btn d-none d-md-inline'>
-                          <img src={plus.src} alt='' />
                           Iniciar Sesion
                         </button>
                       </div>
