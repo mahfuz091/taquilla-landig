@@ -26,7 +26,7 @@ const SignInPage = () => {
         <Col lg={5}>
           <SignInLeft />
         </Col>
-        <Col lg={7}>
+        <Col lg={7} style={{ margin: "auto 0" }}>
           <SignInRight />
         </Col>
       </Row>

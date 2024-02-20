@@ -5,7 +5,7 @@ const SignInLeft = () => {
   const styling = {
     backgroundImage: `url('${img.src}')`,
     width: "100%",
-    height: "100%",
+    height: "100vh",
     backgroundPosition: "center",
     backgroundSize: "cover",
   };

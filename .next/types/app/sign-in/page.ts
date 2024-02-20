@@ -1,4 +1,4 @@
-// File: F:\Oyolloo\taquillacentral-web-frontend-ssr-main (1)\taquillacentral-web-frontend-ssr-main\src\app\sign-in\page.js
+// File: F:\taquilla-landig\src\app\sign-in\page.js
 import * as entry from '../../../../src/app/sign-in/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

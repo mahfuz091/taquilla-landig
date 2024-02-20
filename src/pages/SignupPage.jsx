@@ -26,7 +26,7 @@ const SignupPage = () => {
         <Col lg={5}>
           <SignUpLeft />
         </Col>
-        <Col lg={7}>
+        <Col lg={7} style={{ margin: "auto 0" }}>
           <SignUpRight />
         </Col>
       </Row>

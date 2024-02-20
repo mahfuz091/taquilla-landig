@@ -1908,7 +1908,7 @@ span.line-break {
   margin-bottom: 81px;
 }
 .sign-up-right.sign-in-right .social .social-icon {
-  margin-bottom: 179px;
+  /* margin-bottom: 179px; */
 }
 .sign-up-header {
   margin-bottom: -80px;

@@ -1,4 +1,4 @@
-// File: F:\Oyolloo\taquillacentral-web-frontend-ssr-main (1)\taquillacentral-web-frontend-ssr-main\src\app\layout.js
+// File: F:\taquilla-landig\src\app\layout.js
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
