@@ -6,10 +6,10 @@ import logo from "./image/LOGO TAQUILLA CENTRAL-01 1.png";
 const SignUpLeft = () => {
   //   const img = require("./image/sign-up-bg.png");
   const styling = {
-    backgroundImage: `url('${img.src}')`,
+    background: `url('${img.src}') no-repeat`,
     width: "100%",
-    height: "100vh",
-    backgroundPosition: "center",
+    // height: "100vh",
+    // backgroundPosition: "center",
     backgroundSize: "cover",
   };
   return (

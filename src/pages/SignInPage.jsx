@@ -3,8 +3,16 @@ import React from "react";
 import logo from "../components/SignInLeft/image/LOGO TAQUILLA CENTRAL-01 1.png";
 import { Col, Container, Row } from "react-bootstrap";
 import Link from "next/link";
-import SignInLeft from "@/components/SignInLeft/SignInLeft";
+// import SignInLeft from "@/components/SignInLeft/SignInLeft";
 import SignInRight from "@/components/SignInRight/SignInRight";
+import img from "../assets/image/sign-in-bg.png";
+const styling = {
+  backgroundImage: `url('${img.src}') `,
+  // width: "100%",
+  // height: "100vh",
+  backgroundPosition: "center",
+  backgroundSize: "cover",
+};
 
 const SignInPage = () => {
   return (
@@ -22,9 +30,9 @@ const SignInPage = () => {
           </div>
         </Container>
       </header>
-      <Row>
-        <Col lg={5}>
-          <SignInLeft />
+      <Row style={{ minHeight: "100vh" }}>
+        <Col lg={5} style={styling}>
+          {/* <SignInLeft /> */}
         </Col>
         <Col lg={7} style={{ margin: "auto 0" }}>
           <SignInRight />
