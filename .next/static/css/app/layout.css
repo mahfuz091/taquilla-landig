@@ -570,7 +570,7 @@ section.event-details-section {
   border: 2px solid #9b65e4;
   box-shadow: -10px 10px 70px -4px rgba(0, 0, 0, 0.14);
   border-radius: 10px;
-  padding: 20px;
+  padding: 20px 0;
   text-align: left;
   max-width: 300px;
   margin: 0 auto;
@@ -583,12 +583,16 @@ section.event-details-section {
 }
 
 .select-option {
+  border-bottom: 1px solid #f6f5ff;
+  padding: 6px 20px;
+  cursor: pointer;
+}
+.select-option span {
   color: #322670;
   font-size: 18px;
   font-weight: 500;
-  border-bottom: 1px solid #f6f5ff;
+  display: block;
   padding: 6px 0;
-  cursor: pointer;
 }
 
 .select-option:last-child {

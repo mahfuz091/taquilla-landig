@@ -81,10 +81,17 @@ const OffCanvas = ({
               {dropDown && (
                 <div className='select-options'>
                   <img src={triangle.src} alt='' />
-                  <div className='select-option'>Gestionar mis eventos</div>
-                  <div className='select-option'>Mis entradas</div>
-                  <div className='select-option'>Ajustes</div>
-                  <div className='select-option'>Cerrar sesión</div>
+                  <div className='select-option'>
+                    <span>Gestionar mis eventos</span>
+                  </div>
+                  <div className='select-option'>
+                    <span>Mis entradas</span>
+                  </div>
+                  <div className='select-option'>
+                    <span>Ajustes</span>
+                    <span>Cerrar sesión</span>
+                  </div>
+                  {/* <div className='select-option'></div> */}
                 </div>
               )}
             </div>
