@@ -73,9 +73,8 @@ const OffCanvas = ({
                 <h4>John Deo</h4>
                 {/* <img src={arrow.src} alt='' /> */}
                 <i
-                  className={`fas fa-angle-${
-                    dropDown === true ? "up" : "down"
-                  }`}
+                  className={`fas fa-angle-${dropDown === true ? "up" : "down"
+                    }`}
                 ></i>
               </div>
               {dropDown && (
@@ -106,16 +105,10 @@ const OffCanvas = ({
                 </button>
               </a>
               <Link href='/sign-up'>
-                <button className='create-event-btn '>
-                  <img src={plus.src} alt='' />
-                  Regístrate
-                </button>
+                <button className='create-event-btn '>Regístrate</button>
               </Link>
               <a href=''>
-                <button className='sesion-btn '>
-                  <img src={plus.src} alt='' />
-                  Iniciar Sesion
-                </button>
+                <button className='sesion-btn '>Iniciar Sesion</button>
               </a>
             </div>
           </>

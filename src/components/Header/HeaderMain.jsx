@@ -73,6 +73,9 @@ const HeaderMain = () => {
             <Container>
               <Row className='align-items-center'>
                 <Col xs={5}>
+                  <div className='menu-trigger d-md-none text-start' onClick={handleShow}>
+                    <img src={Hamburger.src} alt='' />
+                  </div>
                   <div className='search d-none d-md-block'>
                     <div className='header-input'>
                       <TypeAhead events={events} handleClose={handleClose} />
@@ -102,7 +105,7 @@ const HeaderMain = () => {
                       </div>
                     </div>
                   </div>
-                  <button
+                  {/* <button
                     onClick={handleShow}
                     className='mobile-search-button d-md-none'
                   >
@@ -128,7 +131,7 @@ const HeaderMain = () => {
                         strokeLinejoin='round'
                       />
                     </svg>
-                  </button>
+                  </button> */}
                 </Col>
                 <Col xs={2}>
                   <div className='site-logo text-center'>
@@ -138,9 +141,36 @@ const HeaderMain = () => {
                   </div>
                 </Col>
                 <Col xs={5}>
-                  <div className='menu-trigger d-md-none' onClick={handleShow}>
+                  {/* <div className='menu-trigger d-md-none' onClick={handleShow}>
                     <img src={Hamburger.src} alt='' />
-                  </div>
+                  </div> */}
+                  <div className="d-flex justify-content-end"><button
+                    onClick={handleShow}
+                    className='mobile-search-button d-md-none'
+                  >
+                    <svg
+                      xmlns='http://www.w3.org/2000/svg'
+                      width='16'
+                      height='16'
+                      viewBox='0 0 16 16'
+                      fill='none'
+                    >
+                      <path
+                        d='M7.25 12.5C10.1495 12.5 12.5 10.1495 12.5 7.25C12.5 4.35051 10.1495 2 7.25 2C4.35051 2 2 4.35051 2 7.25C2 10.1495 4.35051 12.5 7.25 12.5Z'
+                        stroke='#7B788A'
+                        strokeWidth='2'
+                        strokeLinecap='round'
+                        strokeLinejoin='round'
+                      />
+                      <path
+                        d='M10.9629 10.9626L14.0004 14.0002'
+                        stroke='#7B788A'
+                        strokeWidth='2'
+                        strokeLinecap='round'
+                        strokeLinejoin='round'
+                      />
+                    </svg>
+                  </button></div>
                   {auth ? (
                     <div className='justify-content-end d-none d-md-flex'>
                       <button className='create-event-btn d-none d-lg-flex'>
@@ -156,9 +186,8 @@ const HeaderMain = () => {
                           <h4>John Deo</h4>
                           {/* <img src={arrow.src} alt='' /> */}
                           <i
-                            className={`fas fa-angle-${
-                              dropDown === true ? "up" : "down"
-                            }`}
+                            className={`fas fa-angle-${dropDown === true ? "up" : "down"
+                              }`}
                           ></i>
                         </div>
                         {dropDown && (
@@ -187,7 +216,7 @@ const HeaderMain = () => {
                           Crear nuevo evento
                         </button>
                         <Link href='/sign-up'>
-                          <button className='create-event-btn '>
+                          <button className='create-event-btn'>
                             {/* <img src={plus.src} alt='' /> */}
                             Regístrate
                           </button>

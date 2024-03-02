@@ -2242,6 +2242,7 @@ ul.social-media li a {
   display: flex;
   /* justify-content: end; */
 }
+
 .mobile-header-input {
   position: relative;
   display: flex;
@@ -2258,6 +2259,7 @@ ul.social-media li a {
   gap: 16px;
   font-size: 16px;
 }
+
 .mobile-input-content {
   position: absolute;
   top: 16px;
@@ -2280,6 +2282,7 @@ ul.social-media li a {
   color: #322670;
   font-size: 14px;
 }
+
 .mobile-header-input input {
   background-color: #f4f4f4;
   border: 0;
@@ -2360,7 +2363,8 @@ header {
   font-size: 12px;
   font-style: normal;
   font-weight: 600;
-  line-height: 145%; /* 20.3px */
+  line-height: 145%;
+  /* 20.3px */
 }
 
 ::placeholder {
@@ -2370,13 +2374,15 @@ header {
   font-size: 12px;
   font-style: normal;
   font-weight: 600;
-  line-height: 145%; /* 20.3px */
+  line-height: 145%;
+  /* 20.3px */
 }
 
 .mobile-search-button {
   border: none;
   background: none;
 }
+
 @media (min-width: 1024px) {
   ::-moz-placeholder {
     font-size: 14px;
@@ -2418,6 +2424,7 @@ svg {
   background-color: white;
   z-index: 2;
 }
+
 .mobile-search-suggestion {
   position: absolute;
   margin-top: 15px;
@@ -2568,12 +2575,9 @@ svg {
   /* line-height: 24px; */
   cursor: pointer;
 }
+
 .sesion-btn {
-  display: inline-flex;
-  padding: 13px 20px 13px 20px;
-  justify-content: center;
-  align-items: center;
-  gap: 6px;
+  padding: 12px 20px 13px 20px;
   border-radius: 100px;
   background: rgb(155, 101, 228);
   border: none;
@@ -2585,13 +2589,6 @@ svg {
   /* line-height: 24px; */
   cursor: pointer;
 }
-
-@media (max-width: 991px) {
-  .sesion-btn {
-    padding: 13px 20px 13px 13px;
-  }
-}
-
 /*!******************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./node_modules/react-bootstrap-typeahead/css/Typeahead.css ***!
   \******************************************************************************************************************************************************************************************************************************************************************************************************/
